@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLab AO</title>
+    <link rel="stylesheet" href="css/devtools.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/img/SVG/newlogo.svg" />
+  </head>
+  <body>
+    <header></header>
+    <div class="bg-glow"></div>
+
+  
+
+    <header>
+      <div class="container">
+        <span class="badge">Aprendizado & Tecnologia</span>
+        <h1>DevLab AO - <span>Vídeos Úteis</span></h1>
+        <p>
+          Uma PlayList dos melhores conteúdos de programação em português para
+          elevar seu nível.
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <nav class="categories-filter">
+        <button class="filter-btn active" data-category="all">Todos</button>
+        <button class="filter-btn" data-category="frontend">Frontend</button>
+        <button class="filter-btn" data-category="backend">Backend</button>
+        <button class="filter-btn" data-category="mobile">Mobile</button>
+        <button class="filter-btn" data-category="data">Data Science</button>
+        <button class="filter-btn" data-category="tools">Ferramentas</button>
+      </nav>
+
+      <div class="video-grid" id="video-container"></div>
+    </main>
+
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="video-player">
+          <iframe
+            id="videoIframe"
+            src=""
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Designed & Developed by — © <strong>Liano Marcelo</strong></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="js/devtools.js"></script>
+  </body>
+</html>
