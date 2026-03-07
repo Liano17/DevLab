@@ -1,8 +1,8 @@
 :root {
   --bg-dark: #0f0715;
   --card-bg: #140b1c;
-  --primary-gradient: linear-gradient(90deg, #8750f7 0%, #ffffff 100%);
-  --accent-purple: #8750f7;
+  --primary-gradient: linear-gradient(90deg, #0043d8 0%, #ffffff 100%);
+  --accent-purple: #0043d8;
   --text-gray: #dddddd;
 }
 
