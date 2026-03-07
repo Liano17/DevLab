@@ -14,7 +14,7 @@ const meusVideos = [
   { 
     url: "https://youtu.be/6LMQjWcgdH8",
     cat: "tools",
-    title: "OS ERROS QUE ESTÃO A MATAR A TUA EVOLUÇÃO(🧑🏽‍💻+⚠️)!",
+    title: "ERROS QUE ESTÃO A MATAR A TUA EVOLUÇÃO(🧑🏽‍💻+⚠️)!",
     channel: "DevLab AO"
   }, // [web:36]
   { 
