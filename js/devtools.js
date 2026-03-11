@@ -11,6 +11,12 @@ function obterVideoID(url) {
 
 const meusVideos = [
   // ---------- TOOLS / GERAL ----------
+    { 
+    url: "https://youtu.be/x9tUQCpDyB0?si=mOKaI0BZK_l6aiVV",
+    cat: "tools",
+    title: "POR QUE O TEU SITE FALHA? O QUE TODO DESENVOLVEDOR IGNORA🧑🏽‍💻🌐!",
+    channel: "DevLab AO"
+  }, // [web:36]
   { 
     url: "https://youtu.be/6LMQjWcgdH8",
     cat: "tools",
