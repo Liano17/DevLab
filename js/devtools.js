@@ -14,7 +14,7 @@ const meusVideos = [
     { 
     url: "https://youtu.be/x9tUQCpDyB0?si=mOKaI0BZK_l6aiVV",
     cat: "tools",
-    title: "POR QUE O TEU SITE FALHA? O QUE TODO DESENVOLVEDOR IGNORA🧑🏽‍💻🌐!",
+    title: "POR QUE O TEU SITE FALHA? O QUE TODO DESENVOLVEDOR IGNORA🧑🏽‍💻🌐!", 
     channel: "DevLab AO"
   }, // [web:36]
   { 
