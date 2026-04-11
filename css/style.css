@@ -1454,7 +1454,7 @@ body {
 /* ESTILO: Preview Card (Cartões de Projectos Recentes) */
 .preview-card {
   --card-radius: 12px;
-  --accent-gradient: linear-gradient(135deg, #6c3ccc, #196ad4);
+  --accent-gradient: linear-gradient(135deg, #6c3ccc, #196ad4);}
 /* ESTILO: Card Project (Novo Design Interativo 2.0) */
 .card-project {
   position: relative;
@@ -1476,6 +1476,8 @@ body {
 .preview-card:focus-visible {
   outline: 3px solid rgba(163, 91, 255, 0.24);
   outline-offset: 6px;
+}
+
 .card-project:hover,
 .card-project:focus-within {
   transform: translateY(-10px) scale(1.02);
@@ -1485,6 +1487,8 @@ body {
 }
 
 .preview-media {
+}
+
 .card-project:focus-visible {
   outline: 3px solid var(--accent-1);
   outline-offset: 4px;
@@ -1500,6 +1504,8 @@ body {
 }
 
 .preview-media img {
+}
+
 .card-project-image img {
   width: 100%;
   height: 200px;
@@ -1514,6 +1520,7 @@ body {
   padding: 14px;
   background: linear-gradient(180deg, rgba(15, 10, 22, 0.95), rgba(10, 5, 18, 0.98));
   border-top: 1px solid rgba(108, 60, 204, 0.08);
+}
 .card-project:hover .card-project-image img {
   transform: scale(1.12);
   filter: brightness(1.1);
@@ -1557,6 +1564,7 @@ body {
   font-size: 1rem;
   font-weight: 600;
   color: white;
+}
 .card-project:hover .card-project-content {
   transform: translateY(0);
 }
@@ -1565,6 +1573,7 @@ body {
   margin: 0;
   font-size: 0.82rem;
   color: rgba(255, 255, 255, 0.68);
+}
 .card-project-tag {
   align-self: flex-start;
   font-size: 0.75rem;
@@ -1582,6 +1591,7 @@ body {
 .preview-open {
   background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
   border: none;
+}
 .card-project-title {
   font-size: 1.6rem;
   font-weight: 800;
@@ -1601,7 +1611,7 @@ body {
 
 .preview-open:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 28px rgba(99, 60, 204, 0.22);
+  box-shadow: 0 10px 28px rgba(99, 60, 204, 0.22);}
 .card-project-desc {
   color: var(--muted);
   font-size: 0.95rem;
@@ -1615,7 +1625,7 @@ body {
   overflow: hidden;
 }
 
-.preview-open:active {
+
 .card-project:hover .card-project-desc {
   opacity: 1;
   transform: translateY(0);
@@ -1633,8 +1643,7 @@ body {
   filter: brightness(1.05);
 }
 
-.preview-card:hover .preview-title,
-.preview-card:focus-within .preview-title {
+
 .card-project-action {
   margin-top: 12px;
   opacity: 0;
@@ -1653,7 +1662,7 @@ body {
   height: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;}
 .card-project:hover .card-project-action {
   opacity: 1;
   transform: translateY(0);
@@ -1667,7 +1676,7 @@ body {
 
 .preview-open {
   background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
-  border: none;
+  border: none;}
 .card-project-btn {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -1690,7 +1699,7 @@ body {
 }
 
 .preview-open:active {
-  transform: translateY(1px) scale(0.996);
+  transform: translateY(1px) scale(0.996);}
 .card-project-btn:hover {
   background: white;
   color: var(--accent-1);
@@ -1706,7 +1715,7 @@ body {
 
 @media (max-width:640px) {
   .preview-card {
-    height: 220px;
+    height: 220px;}
     /* Altura ajustada para mobile */
   .card-project {
     height: 300px;
@@ -1721,7 +1730,7 @@ body {
 @media (prefers-reduced-motion: reduce) {
 
   .preview-card,
-  .preview-card * {
+  .preview-card * {}
   .card-project,
   .card-project * {
     transition: none !important;
